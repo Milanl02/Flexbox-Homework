@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: goldenrod;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.logoBox{
+    background-image: url("https://st2.depositphotos.com/4368063/9642/v/600/depositphotos_96426280-stock-illustration-new-york-lettering-stamp.jpg");
+    background-size: 100% 100%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: .08s;
+    margin: 0 10px;
+    line-height: 60px;
+    align-items: end;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.container1{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://wallpaperaccess.com/full/492726.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: white ;
+    border-style: solid;
+    background-color: goldenrod;
+    font-size: xxx-large;
+    padding: 4px;
+    margin-top: 50px;
+}
+
+.boxes{
+    width: 300px;
+    height: 170px;
+    background-color: goldenrod;
+}
+
+.topbar{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+}
+
+.fourcontainers{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
